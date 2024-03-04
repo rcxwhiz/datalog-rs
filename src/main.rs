@@ -7,6 +7,7 @@ mod predicate;
 mod rule;
 mod datalog_program;
 mod lexer;
+mod file_iterator;
 
 fn main() {
     let args: Vec<String> = env::args().collect();

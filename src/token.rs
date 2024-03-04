@@ -1,3 +1,4 @@
+#[derive(PartialEq, Debug)]
 pub enum TokenValue {
     Comma,
     Period,
@@ -19,6 +20,7 @@ pub enum TokenValue {
     Eof,
 }
 
+#[derive(Debug)]
 pub struct Token {
     pub value: TokenValue,
     pub line_num: usize,
